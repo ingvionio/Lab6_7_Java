@@ -1,4 +1,4 @@
-package ya.yanbragin;
+package com.example;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -6,8 +6,8 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import ya.yanbragin.model.User;
-import ya.yanbragin.service.UserService;
+import com.example.model.User;
+import com.example.service.UserService;
 
 import java.io.IOException;
 

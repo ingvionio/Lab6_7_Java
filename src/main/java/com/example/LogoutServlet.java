@@ -1,4 +1,4 @@
-package ya.yanbragin;
+package com.example;
 
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;

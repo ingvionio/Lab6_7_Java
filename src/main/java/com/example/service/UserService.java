@@ -1,6 +1,6 @@
-package ya.yanbragin.service;
+package com.example.service;
 
-import ya.yanbragin.model.User;
+import com.example.model.User;
 
 import java.util.HashMap;
 import java.util.Map;

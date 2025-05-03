@@ -1,4 +1,4 @@
-package ya.yanbragin;
+package com.example;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -6,7 +6,7 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
-import ya.yanbragin.model.User;
+import com.example.model.User;
 
 import java.io.*;
 import java.nio.file.Path;
@@ -15,7 +15,7 @@ import java.nio.file.Paths;
 @WebServlet("/download")
 public class FileDownloadServlet extends HttpServlet {
 
-    private static final String BASE_USER_DIR = "C:/Users/zxcursedfan/Desktop/basefile";
+    private static final String BASE_USER_DIR = "C:/lab5Test";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession(false);

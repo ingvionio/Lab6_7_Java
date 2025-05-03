@@ -3,7 +3,7 @@
 
     <Manager className="org.apache.catalina.session.PersistentManager">
         <Store className="org.apache.catalina.session.FileStore"
-               directory="C:\Users\zxcursedfan\Desktop\sessions" />
+               directory="C:\lab5Test\sessions" />
     </Manager>
 
 </Context>

@@ -1,4 +1,4 @@
-package ya.yanbragin.model;
+package com.example.model;
 
 import java.io.Serial;
 import java.io.Serializable;
